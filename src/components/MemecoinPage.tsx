@@ -38,7 +38,7 @@ const MemecoinPage: React.FC = () => {
     const fetchMemecoins = async () => {
       try {
         const response = await fetch(
-          'use your coingeko api key, to checkout the memecoin rug pull identification page.',
+          '',
           {
             headers: {
               'x-cg-demo-api-key': 'CG-cnpoM77QkVBu7cXmobwg7VWE'
