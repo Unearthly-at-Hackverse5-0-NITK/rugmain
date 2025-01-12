@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 app = Flask(__name__)
 
 # Direct API credentials
-API_KEY = "your-api-key-here"  # Replace with your actual API key
+API_KEY = "your-api-key-here"  # Replace with your actual API key, for security and usage reason i have restricted the use of api here
 ACCOUNT_ID = "your-account-id-here"  # Replace with your actual account ID
 
 class RugPullDetector:
